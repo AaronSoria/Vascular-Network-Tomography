@@ -1,0 +1,104 @@
+[
+  {
+    "scenario": "healthy",
+    "ground_truth": {
+      "stenosis_edge": null,
+      "stenosis_severity": 0.0,
+      "D_left_m": 0.01,
+      "D_right_m": 0.01
+    },
+    "observations": {
+      "T_AL": 0.08777777777777777,
+      "A_AL": 1.6253903088175103,
+      "T_AR": 0.08777777777777777,
+      "A_AR": 1.6253903088175103,
+      "T_TDR": 0.0,
+      "A_TDR": 0.0
+    }
+  },
+  {
+    "scenario": "left_mild_30",
+    "ground_truth": {
+      "stenosis_edge": "e_left",
+      "stenosis_severity": 0.3,
+      "D_left_m": 0.006999999999999999,
+      "D_right_m": 0.01
+    },
+    "observations": {
+      "T_AL": 0.08761443780431186,
+      "A_AL": 2.305577994193746,
+      "T_AR": 0.08777777777777777,
+      "A_AR": 1.6253903088175103,
+      "T_TDR": 0.16455555555555557,
+      "A_TDR": 0.11485434875858738
+    }
+  },
+  {
+    "scenario": "left_moderate_50",
+    "ground_truth": {
+      "stenosis_edge": "e_left",
+      "stenosis_severity": 0.5,
+      "D_left_m": 0.005,
+      "D_right_m": 0.01
+    },
+    "observations": {
+      "T_AL": 0.08748488455896433,
+      "A_AL": 2.762444761718856,
+      "T_AR": 0.08777777777777777,
+      "A_AR": 1.6253903088175103,
+      "T_TDR": 0.16455555555555557,
+      "A_TDR": 0.19199943118464252
+    }
+  },
+  {
+    "scenario": "left_severe_70",
+    "ground_truth": {
+      "stenosis_edge": "e_left",
+      "stenosis_severity": 0.7,
+      "D_left_m": 0.003,
+      "D_right_m": 0.01
+    },
+    "observations": {
+      "T_AL": 0.08732550033528294,
+      "A_AL": 3.098061578630959,
+      "T_AR": 0.08777777777777777,
+      "A_AR": 1.6253903088175103,
+      "T_TDR": 0.16455555555555557,
+      "A_TDR": 0.2486706291019466
+    }
+  },
+  {
+    "scenario": "right_severe_70",
+    "ground_truth": {
+      "stenosis_edge": "e_right",
+      "stenosis_severity": 0.7,
+      "D_left_m": 0.01,
+      "D_right_m": 0.003
+    },
+    "observations": {
+      "T_AL": 0.08777777777777777,
+      "A_AL": 1.6253903088175103,
+      "T_AR": 0.08732550033528294,
+      "A_AR": 3.098061578630959,
+      "T_TDR": 0.16455555555555557,
+      "A_TDR": 0.2486706291019466
+    }
+  },
+  {
+    "scenario": "bilateral_50",
+    "ground_truth": {
+      "stenosis_edge": "e_left",
+      "stenosis_severity": 0.5,
+      "D_left_m": 0.005,
+      "D_right_m": 0.005
+    },
+    "observations": {
+      "T_AL": 0.08748488455896433,
+      "A_AL": 2.762444761718856,
+      "T_AR": 0.08777777777777777,
+      "A_AR": 1.6253903088175103,
+      "T_TDR": 0.16455555555555557,
+      "A_TDR": 0.19199943118464252
+    }
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "metrics": {
+    "n_scenarios": 5,
+    "n_nontrivial": 4,
+    "diameter_error_pass_rate": 1.0,
+    "severity_error_pass_rate": 1.0,
+    "localization_accuracy": 1.0
+  },
+  "scenario_results": [
+    {
+      "scenario": "healthy",
+      "stenosis_edge": null,
+      "stenosis_severity_true": 0.0,
+      "D_left_true_m": 0.01,
+      "D_right_true_m": 0.01,
+      "D_left_est_m": 0.01,
+      "D_right_est_m": 0.01,
+      "residual_norm": 0.0,
+      "n_iter": 376,
+      "converged": true,
+      "severity_est": 0.0
+    },
+    {
+      "scenario": "left_mild_30",
+      "stenosis_edge": "e_left",
+      "stenosis_severity_true": 0.3,
+      "D_left_true_m": 0.006999999999999999,
+      "D_right_true_m": 0.01,
+      "D_left_est_m": 0.007000000000223607,
+      "D_right_est_m": 0.010000000188137473,
+      "residual_norm": 8.206173344151401e-11,
+      "n_iter": 605,
+      "converged": true,
+      "severity_est": 0.2999999999776394
+    },
+    {
+      "scenario": "left_moderate_50",
+      "stenosis_edge": "e_left",
+      "stenosis_severity_true": 0.5,
+      "D_left_true_m": 0.005,
+      "D_right_true_m": 0.01,
+      "D_left_est_m": 0.005000000001277002,
+      "D_right_est_m": 0.009999999785360082,
+      "residual_norm": 2.519962381036216e-10,
+      "n_iter": 663,
+      "converged": true,
+      "severity_est": 0.4999999998722998
+    },
+    {
+      "scenario": "left_severe_70",
+      "stenosis_edge": "e_left",
+      "stenosis_severity_true": 0.7,
+      "D_left_true_m": 0.003,
+      "D_right_true_m": 0.01,
+      "D_left_est_m": 0.0030000000084130264,
+      "D_right_est_m": 0.01000000038255066,
+      "residual_norm": 7.67232753903057e-10,
+      "n_iter": 561,
+      "converged": true,
+      "severity_est": 0.6999999991586974
+    },
+    {
+      "scenario": "right_severe_70",
+      "stenosis_edge": "e_right",
+      "stenosis_severity_true": 0.7,
+      "D_left_true_m": 0.01,
+      "D_right_true_m": 0.003,
+      "D_left_est_m": 0.01000000038255066,
+      "D_right_est_m": 0.0030000000084130264,
+      "residual_norm": 7.67232753903057e-10,
+      "n_iter": 474,
+      "converged": true,
+      "severity_est": 0.6999999991586974
+    }
+  ]
+}
