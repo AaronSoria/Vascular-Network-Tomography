@@ -26,10 +26,16 @@ experiments/
 ├── run_inverse.py           # Phase III: recover θ from M_obs, check success criteria
 └── figures/                 # Output plots
 
+simulations/
+└── pressure_tdr_simulation.html  # Interactive P-TDR browser simulation (open in browser)
+
 docs/
 ├── research-proposal-v1.md
 ├── literature-review-v1.md
-└── validation-experiment-v1.md
+├── validation-experiment-v1.md
+├── hardware-version-A-cuff.md
+├── hardware-version-B-ultrasound.md
+└── hardware-comparative-analysis.md
 ```
 
 ---
@@ -91,6 +97,13 @@ python experiments/run_inverse.py
 
 Figures are saved to `experiments/figures/`.
 
+## Interactive Simulation
+
+Open `simulations/pressure_tdr_simulation.html` directly in any browser (no server needed).
+
+Controls: stenosis side, severity (10–90%), wave speed c, chirp frequency range, excitation amplitude.
+Displays: animated wave propagation in the arterial network, pressure signals at all three sensors (A/L/R), TDR impulse response with detection window, and computed metrics (TOF, echo time, stenosis distance, SNR).
+
 ## Validation Results (Phase III)
 
 Minimum experiment: Y-bifurcation, topology known, no noise, 5 scenarios.
@@ -114,4 +127,4 @@ Minimum experiment: Y-bifurcation, topology known, no noise, 5 scenarios.
 | I — Forward Model | ✅ Complete | Ray-tracing solver, 3 scenario levels |
 | II — Inverse Problem | ✅ Complete | Tikhonov-regularised Nelder-Mead (multi-start) |
 | III — Validation | ✅ Complete | Synthetic dataset, identifiability, 100% criteria met |
-| IV — Hardware Concept | 🔲 Pending | Feasibility study, transducer specs |
+| IV — Hardware Concept | ✅ Complete | Version A (cuff P-TDR) + Version B (guided wave), comparative analysis |
