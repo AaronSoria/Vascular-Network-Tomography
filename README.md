@@ -26,10 +26,10 @@ experiments/
 ├── run_inverse.py           # Phase III: recover θ from M_obs, check success criteria
 └── figures/                 # Output plots
 
-simulations/
+docs/
 └── pressure_tdr_simulation.html  # Interactive P-TDR browser simulation (open in browser)
 
-docs/
+research/
 ├── research-proposal-v1.md
 ├── literature-review-v1.md
 ├── validation-experiment-v1.md
